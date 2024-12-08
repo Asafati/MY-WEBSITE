@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="icon" href="8.logo bulat.jpg" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            if (content.style.display === "none") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-900 text-gray-1000">
+    <header class="bg-blue-500 text-white shadow-md">
+        <div class="container mx-auto px-4 py-2 flex items-center justify-between">
+            <div class="flex items-center">
+                <img src="8.logo bulat.jpg" alt="Site Logo" class="h-12 w-12 rounded-full mr-3">
+                <h1 class="text-2xl font-bold">My Personal Website</h1>
+            </div>
+            <!-- Hamburger Button -->
+            <button id="hamburger" class="block md:hidden p-2 text-white">
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+            <!-- Navigation Menu -->
+            <nav id="nav-menu"
+                class="hidden md:flex md:space-x-4 flex-col md:flex-row absolute md:static top-14 left-0 md:top-auto md:left-auto w-full md:w-auto bg-blue-500 md:bg-transparent shadow-md md:shadow-none z-10">
+                <ul class="md:flex-row md:items-center flex flex-col md:space-x-4 text-center">
+                    <li><a href="index.html"
+                            class="block py-2 md:py-0 text-white hover:text-gray-300 transition">Home</a>
+                    </li>
+                    <li><a href="about.html"
+                            class="block py-2 md:py-0 text-white hover:text-gray-300 transition">About</a>
+                    </li>
+                    <li><a href="gallery.html"
+                            class="block py-2 md:py-0 text-white hover:text-gray-300 transition">Gallery</a></li>
+                    <li><a href="calculator.html"
+                            class="block py-2 md:py-0 text-white hover:text-gray-300 transition">Calculator</a></li>
+                    <li><a href="registration.html"
+                            class="block py-2 md:py-0 text-white hover:text-gray-300 transition">Registration</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+</body>
+
+        <!-- Main Content Area -->
+        <main class="bg-600 p-6 rounded-lg shadow-lg col-span-2">
+            <h2 class="text-3xl font-semibold text-gray-900 mb-4">Gallery</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+
+                <!-- Gambar 1 -->
+                <div class="relative">
+                    <img src="11.facebook.jpg" alt="Image 1" class="w-full h-auto rounded-lg shadow-md">
+                    <div class="absolute bottom-0 left-0 p-2 bg-gray-900 bg-opacity-50 text-white">Facebook<a href="https://www.facebook.com/asafati.gea0" target="_blank"class="text-blue-300 hover:underline">------- see my content here</a></div>
+                </div>
+                <!-- Gambar 2 -->
+                <div class="relative">
+                    <img src="12.instagram.jpg" alt="Image 2" class="w-full h-auto rounded-lg shadow-md">
+                    <div class="absolute bottom-0 left-0 p-2 bg-gray-800 bg-opacity-50 text-white">Instagram
+                    <a href="https://www.instagram.com/asafati__gea/profilecard/?igsh=MThvZndzZGM0amEwaA==" target="_blank"class="text-blue-300 hover:underline">------- see my content here</a></div>
+                </div>
+                <!-- Gambar 3 -->
+                <div class="relative">
+                    <img src="13.tiktok.jpg" alt="Image 3" class="w-full h-auto rounded-lg shadow-md">
+                    <div class="absolute bottom-0 left-0 p-2 bg-gray-800 bg-opacity-50 text-white">Tik-tok
+                    <a href="http://tiktok.com/@asafati_gea" target="_blank"class="text-blue-300 hover:underline">------- see my content here</a></div>
+                </div>
+                <!-- Gambar 4 -->
+                <div class="relative">
+                    <img src="14.twitter.jpg" alt="Image 4" class="w-full h-auto rounded-lg shadow-md">
+                    <div class="absolute bottom-0 left-0 p-2 bg-gray-800 bg-opacity-50 text-white">Twitter
+                    <a href="https://x.com/0AsafatiGea?t=mbcO0Ril2VGUoV-ShCQE-A&s=08" target="_blank" class="text-blue-300 hover:underline">------- see my content here</a></div>
+                </div>
+                <!-- Gambar 5 -->
+                <div class="relative">
+                    <img src="15.youtobe.jpg" alt="Image 5" class="w-full h-auto rounded-lg shadow-md">
+                    <div class="absolute bottom-0 left-0 p-2 bg-gray-800 bg-opacity-50 text-white">YouTube
+                    <a href="https://www.youtube.com/@asafatigea" target="_blank"class="text-blue-300 hover:underline">------- see my content here</a></div>
+                </div>
+                <!-- Gambar 6 -->
+                <div class="relative">
+                    <img src="20.Field Trip.jpg " alt="Image 6" class="w-full h-auto rounded-lg shadow-md">
+                    <img src="20a.Field Trip.jpg" alt="Image 6" class="w-full h-auto rounded-lg shadow-md">
+                    <img src="20b.Field Trip.jpg" alt="Image 6" class="w-full h-auto rounded-lg shadow-md">
+                    <div class="absolute bottom-0 left-0 p-2 bg-gray-800 bg-opacity-50 text-white">Vlog di Dufan
+                    <a href="https://youtu.be/NFLpdsVfMmA?si=E2ZJy1XYz1mj3CCv" target="_blank"class="text-blue-300 hover:underline">------- see my content here</a></div>
+                </div>
+                <!-- Gambar 7 -->
+                <div class="relative">
+                    <img src="21b.KontenMANGKAS.jpg" alt="Image 7" class="w-full h-auto rounded-lg shadow-md">
+                    <img src="21.KontenMANGKAS.jpg" alt="Image 7" class="w-full h-auto rounded-lg shadow-md">
+                    <img src="21a.KonntenMANGKAS.jpg" alt="Image 7" class="w-full h-auto rounded-lg shadow-md">
+                    <div class="absolute bottom-0 left-0 p-2 bg-gray-800 bg-opacity-50 text-white">KontenMANGKAS
+                    <a href="https://youtu.be/IxL7jQACzQ4" target="_blank"class="text-blue-300 hover:underline">------- see my content here</a></div>
+                </div>
+                <!-- Gambar 8 -->
+                <div class="relative">
+                    <img src="22.MangkasTNI.jpg" alt="Image 8" class="w-full h-auto rounded-lg shadow-md">
+                    <img src="22a.MangkasTNI.jpg" alt="Image 8" class="w-full h-auto rounded-lg shadow-md">
+                    <img src="22b.MangkasTNI.jpg" alt="Image 8" class="w-full h-auto rounded-lg shadow-md">
+                    <div class="absolute bottom-0 left-0 p-2 bg-gray-800 bg-opacity-50 text-white">Model Pangkasan TNI
+                    <a href="https://youtu.be/1pFJn8Lu-Bc" target="_blank"class="text-blue-300 hover:underline">------- see my content here</a></div>
+                </div>
+                <!-- Gambar 9 -->
+                <div class="relative">
+                    <img src="23.KontenNyanyi.jpg" alt="Image 9" class="w-full h-auto rounded-lg shadow-md">
+                    <img src="23a.KontenNyanyi.jpg" alt="Image 9" class="w-full h-auto rounded-lg shadow-md">
+                    <img src="23b.KontenNyanyi.jpg" alt="Image 9" class="w-full h-auto rounded-lg shadow-md">
+                    <div class="absolute bottom-0 left-0 p-2 bg-gray-800 bg-opacity-50 text-white">Konten Nyanyi Lagu Rohani
+                    <a href="https://youtu.be/mrLsWySwFL4" target="_blank"class="text-blue-300 hover:underline">------- see my content here</a></div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Sidebar for Interesting Facts -->
+         <div class="flex items-center justify-center h-screen bg-gray-100">
+            <h1 class="text-2xl font-bold text-black">My Social Media</h1>
+            <nav id="nav-menu"class="hidden md:flex md:space-x-4 flex-col md:flex-row absolute md:static top-14 left-0 md:top-auto md:left-auto w-full md:w-auto bg-blue-500 md:bg-transparent shadow-md md:shadow-none z-10">
+            <a href="https://www.youtube.com/@asafatigea" target="_blank"
+                class="text-blue-500 text-3xl hover:text-red-500">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png"
+                alt="YouTube" class="w-12 h-12 inline-block">
+            <a href="https://www.instagram.com/asafati__gea/profilecard/?igsh=MThvZndzZGM0amEwaA==" target="_blank"
+                class="text-pink-500 text-3xl hover:text-pink-400 flex items-center justify-center space-x-2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram"
+                    class="w-8 h-8 inline-block">
+            </a>
+            <a href="http://tiktok.com/@asafati_gea" target="_blank"
+                class="text-black text-3xl hover:text-black-500 flex items-center justify-center space-x-2">
+                <i class="fab fa-tiktok"></i> <!-- TikTok Icon -->
+                <a href="https://tiktok.com/@asafati_gea" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" alt="TikTok" class="w-8 h-8 inline-block">
+                </a>
+
+            </a>
+            <a href="https://www.facebook.com/asafati.gea0" target="_blank"
+                class="text-blue-600 text-3xl hover:text-blue-400 flex items-center justify-center space-x-2">
+                <i class="fab fa-facebook"></i> <!-- Facebook Icon -->
+                <a href="https://facebook.com/yourpage" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="Facebook"
+                        class="w-8 h-8 inline-block">
+                </a>
+
+            </a>
+            <a href="https://x.com/0AsafatiGea?t=mbcO0Ril2VGUoV-ShCQE-A&s=08" target="_blank"
+                class="text-blue-400 text-3xl hover:text-blue-300 flex items-center justify-center space-x-2">
+                <i class="fab fa-twitter"></i> <!-- X (formerly Twitter) Icon -->
+                <span>X</span>
+            </a>
+                <a href="https://wa.me/082165713526" target="_blank"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" width="50"
+                        height="50"></a>
+                <a href="https://t.me/082165713526" target="_blank"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logo" width="50"
+                        height="50"></a>
+                <a href="mailto:2382006@unai.edu" target="_blank"><imgsrc="https://upload.wikimedia.org/wikipedia/commons/6/60/Email_Icon.svg" alt="Email Icon" width="50"
+                        height="50"></a>
+        </nav>
+        </div>
+    </div>
+<!-- Footer -->
+<footer class="bg-blue-500 text-white text-center py-4">
+    <p>&copy; 2024 Asafati Gea. All rights reserved.</p>
+</footer>
+
+<!-- JavaScript for Hamburger Menu and Slider -->
+<script>
+    // Hamburger Menu Toggle
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('hidden');
+    });
+
+    // Slider Logic
+    const slides = document.querySelectorAll('#slider img');
+    let currentSlide = 0;
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.style.opacity = i === index ? '1' : '0';
+        });
+    }
+
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+    }
+
+    // Initialize slider
+    showSlide(currentSlide);
+    setInterval(nextSlide, 3000); // Change slide every 3 seconds
+</script>
+</body>
+
+</html>
